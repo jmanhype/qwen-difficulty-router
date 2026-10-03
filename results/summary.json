@@ -1,0 +1,47 @@
+{
+  "tasks": 14,
+  "confidence_threshold": 70,
+  "cheap_only": {
+    "accuracy": 1.0,
+    "correct": 14,
+    "total_completion_tokens": 2563,
+    "correct_per_1k_tokens": 5.462,
+    "mean_latency_s": 4.19
+  },
+  "strong_only": {
+    "accuracy": 1.0,
+    "correct": 14,
+    "total_completion_tokens": 2394,
+    "correct_per_1k_tokens": 5.848,
+    "mean_latency_s": 5.39
+  },
+  "routed": {
+    "accuracy": 1.0,
+    "correct": 14,
+    "total_completion_tokens": 2563,
+    "correct_per_1k_tokens": 5.462,
+    "mean_latency_s": 4.19
+  },
+  "escalation_rate": 0.0,
+  "escalations": [],
+  "by_tier": {
+    "easy": {
+      "cheap_correct": 6,
+      "strong_correct": 6,
+      "routed_correct": 6,
+      "n": 6
+    },
+    "medium": {
+      "cheap_correct": 4,
+      "strong_correct": 4,
+      "routed_correct": 4,
+      "n": 4
+    },
+    "hard": {
+      "cheap_correct": 4,
+      "strong_correct": 4,
+      "routed_correct": 4,
+      "n": 4
+    }
+  }
+}
